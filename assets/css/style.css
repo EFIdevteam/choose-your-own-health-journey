@@ -1,0 +1,150 @@
+.headline-text-color {
+    color: #c1ddc4;
+}
+
+.sub-headline-text-color {
+    color: #528a58;
+}
+
+.sub-headline-bg-color {
+    background-color: #f1fff3;
+}
+
+.signature {
+    font-family: 'Great Vibes', cursive;
+}
+
+.v-shape-header {
+    background: #1d2d33;
+    color: white;
+    padding: 20px 5px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+.bg-ribbon {
+    background: url(../img/yellow_ribbon.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.bg-senior_bandpull {
+    background-image: url(../img/senior_bandpull.webp);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-bg_1 {
+    background-image: url(../img/bg_1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-senior_twist {
+    background-image: url(../img/senior_twist.webp);
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headline-bg {
+  background-color: #8dc993;
+}
+
+.bg-woman_middleaged {
+    background-image: url(../img/woman_middleaged.webp);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-gse_option1 {
+    background-image: url(../img/gse_option1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-llw_option2 {
+    background-image: url(../img/llw_option2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.option-headline-color {
+    color: #80659f;
+}
+
+.option2-headline-color {
+    color: #004aad;
+}
+
+.bg-gentle-essemtial {
+    background-color: #a66abb;
+    border: 3px solid #f1fff3;
+}
+
+.bg-llw-wellness {
+    background-color: #48a2d4;
+    border: 3px solid #f1fff3;
+}
+
+.small-p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.d-d-none {
+    display: none;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .m-ribon {
+            font-size: 20px;
+            padding: 20px;
+    }
+
+    .m-d-none {
+        display: none;
+    }
+
+    .bg-25aae1 {
+        background-color: #25aae1;
+        height: 50px;
+    }
+
+       .m-d-block {
+    display: block;
+}
+
+.m-pr-pb-0 {
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.bg-senior_bandpull {
+    background-image: url(../img/image_1.webp);
+    background-size: contain;
+    background-position: top right;
+}
+
+.bg-senior_twist {
+    background-image: url(../img/image_2.webp);
+    background-position: left;
+    background-size: contain;
+}
+
+.bg-woman_middleaged {
+    background-image: url(../img/unset);
+}
+
+ 
+   
+}
+
