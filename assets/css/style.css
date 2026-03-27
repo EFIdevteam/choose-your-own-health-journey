@@ -10,6 +10,7 @@
     background-color: #f1fff3;
 }
 
+
 .signature {
     font-family: 'Great Vibes', cursive;
 }
@@ -68,10 +69,31 @@
     background-repeat: no-repeat;
 }
 
-.bg-llw_option2 {
+.bg-EFI_option2 {
+    background-image: url(../img/efi_option3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-llw_option3 {
     background-image: url(../img/llw_option2.webp);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-woman_stretch {
+    background-image: url(../img/woman_stretch.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-offer_banner {
+    background-image: url(../img/offer_banner.webp);
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -81,6 +103,10 @@
 
 .option2-headline-color {
     color: #004aad;
+}
+
+.option3-headline-color {
+    color: #578205;
 }
 
 .bg-gentle-essemtial {
@@ -93,13 +119,156 @@
     border: 3px solid #f1fff3;
 }
 
+.bg-llw-wellness {
+    background-color: #578205;
+    border: 3px solid #f1fff3;
+}
+
 .small-p {
-    font-style: italic;
     font-size: 14px;
 }
 
 .d-d-none {
     display: none;
+}
+
+.bg-rgba-white {
+     background:rgba(255,255,255,.9);
+     padding:20px;
+     border-radius: 20px;
+}
+
+.bg-column-option-1 {
+    background-color: #f9e8ff;
+}
+
+.bg-column-option-2 {
+    background-color: #d4ebf9;
+}
+
+.bg-column-option-3 {
+    background-color: #f3fce2;
+}
+
+.rounded-top-30 {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.rounded-bottom-30 {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.rounded-30 {
+    border-radius: 30px;
+}
+
+.bg-option_s {
+     background-image: url(../img/option_s.webp);
+    background-size: cover;
+    padding: 15px;
+}
+
+.option-mt-30 {
+    margin-top: -32px;
+}
+
+.gs-column-headline {
+    color: #8752ab;
+}
+
+.free-14-text-color {
+    color: #46764b;
+}
+
+.alice-family {
+     font-family: 'Alice', serif;
+}
+
+.line {
+    border: 2px solid #d3d3d3;
+    margin: 10px;
+}
+
+
+/* faq */
+
+
+.reference-header {
+	background-color: #f3fce2 !important;
+}
+
+.reference-content {
+	background-color: #fff !important;
+}
+
+.reference-hover {
+	background-color: #f3fce2 !important;
+	color: #000 !important;
+}
+
+
+.accordion-container {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.accordion-item {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.accordion-header {
+	background-color: #fff;
+	cursor: pointer;
+	border: 1px solid #f1efef;
+	padding: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.4;
+	transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+	background-color: #f3fce2;
+}
+
+.accordion-content {
+	padding: 15px 18px;
+	background-color: #fff;
+	border: 1px solid #f1efef;
+	display: none; /* hide by default */
+	line-height: 1.5;
+}
+
+.accordion-item.open .accordion-content {
+	display: block;
+}
+
+.arrow {
+	display: inline-block;
+	transition: transform 0.3s ease;
+	margin-left: 10px;
+}
+
+/* Rotate when open */
+.accordion-item.open .arrow {
+	transform: rotate(90deg); /* ▶ → ▼ */
+}
+
+.accordion-item.open .accordion-header {
+	background-color: #f3fce2;
+}
+
+
+
+p a {
+	text-decoration: none;
+	color: unset;
+	word-break: break-word;
 }
 
 
@@ -135,7 +304,9 @@
 }
 
 .bg-senior_twist {
-    background-image: url(../img/image_2.webp);
+        background-image: 
+        linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+        url(../img/image_2.webp);
     background-position: left;
     background-size: contain;
 }
@@ -143,6 +314,7 @@
 .bg-woman_middleaged {
     background-image: url(../img/unset);
 }
+
 
  
    

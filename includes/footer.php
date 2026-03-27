@@ -25,8 +25,16 @@
 <br>
 
 <script src="<?php echo BASE_URL; ?>assets/js/slim.min.js"></script>
-<script src="<?php echo BASE_URL; ?>assets/js/index.js"></script>
 
+<script>
+
+    document.querySelectorAll('.accordion-header').forEach(header => {
+        header.addEventListener('click', () => {
+            const item = header.parentElement;
+            item.classList.toggle('open');
+        });
+    });
+</script>
 
 </body>
 

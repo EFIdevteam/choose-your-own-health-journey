@@ -78,19 +78,21 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-6 offset-md-2 ">
-                <p class="fw-bold">Here's what we've learned:</p>
-                <p>Vitality doesn't come from just ONE thing.</p>
-                <p>It comes from TWO things working together.</p>
+                <div>
+                    <p class="fw-bold">Here's what we've learned:</p>
+                    <p>Vitality doesn't come from just ONE thing.</p>
+                    <p>It comes from TWO things working together.</p>
 
-                <p><b>Internal support...</b> which <b>Resilience</b> helps provide for you.</p>
+                    <p><b>Internal support...</b> which <b>Resilience</b> helps provide for you.</p>
 
-                <p><b>And gentle, sustainable movement...</b> which your body may be ready for right now.</p>
+                    <p><b>And gentle, sustainable movement...</b> which your body may be ready for right now.</p>
 
-                <p>When you combine both?</p>
+                    <p>When you combine both?</p>
 
-                <p>That's when you may start feeling GOOD again.</p>
-                <p>Not just "less tired."</p>
-                <p>Actually good.</p>
+                    <p>That's when you may start feeling GOOD again.</p>
+                    <p>Not just "less tired."</p>
+                    <p>Actually good.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -223,7 +225,9 @@
                 14-day trial for FREE. This gives you full access to explore the workouts, resources, and guidance
                 designed to help your body move better and feel stronger. After the 14-day trial period, your membership
                 will continue at the regular monthly rate of $59.45 per month for that program unless you decide to
-                cancel. You’re free to cancel anytime by sending us an email at WeCare@LongevityNutritionals.com
+                cancel. You’re free to cancel anytime by sending us an email at <a
+                    href="mailto:WeCare@LongevityNutritionals.com"
+                    class="text-decoration-none text-dark">WeCare@LongevityNutritionals.com</a>
                 . You can also reach our support team by calling or texting +1 (888) 884-9895.</p>
         </div>
     </div>
@@ -312,13 +316,15 @@
                 Try Lifelong Wellness Academy For FREE
             </h2>
             <div> <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" class="img-fluid" /></div>
-            <p class="small-p">When you join today, you’ll receive instant access to the Gentle Stretching Essentials
-                and a special
-                14-day trial for FREE. This gives you full access to explore the workouts, resources, and guidance
-                designed to help your body move better and feel stronger. After the 14-day trial period, your membership
-                will continue at the regular monthly rate of $59.45 per month for that program unless you decide to
-                cancel. You’re free to cancel anytime by sending us an email at WeCare@LongevityNutritionals.com
-                . You can also reach our support team by calling or texting +1 (888) 884-9895.</p>
+            <p class="small-p">When you join today, you’ll receive instant access to the Lifelong Wellness Academy and a
+                special 14-day trial for FREE. This gives you full access to explore the workouts, resources, and
+                guidance designed to help your body move better and feel stronger. After the 14-day trial period, your
+                membership will continue at the regular monthly rate of $47.31 per month for that program unless you
+                decide to cancel. You’re free to cancel anytime by sending us an email at
+                <a href="mailto:WeCare@LongevityNutritionals.com"
+                    class="text-decoration-none text-dark">WeCare@LongevityNutritionals.com</a>
+                . You can also reach our support team by calling or texting +1 (888) 884-9895.
+            </p>
         </div>
     </div>
 </div>
