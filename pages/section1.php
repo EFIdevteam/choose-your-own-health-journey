@@ -1,7 +1,7 @@
-<div class="container-fluid v-shape-header">
+<div class="container-fluid headline-banner p-md-3 p-0">
     <div class="container ">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center text-white">
                 <h2><span class="fst-italic">Before you go…</span><br>
                     there’s one more thing that may help.</h2>
 
@@ -22,6 +22,8 @@
         </div>
     </div>
 </div>
+
+
 
 <div class="container-fluid sub-headline-bg-color">
     <div class="container ">
@@ -77,22 +79,20 @@
 <div class="container-fluid bg-senior_twist">
     <div class="container ">
         <div class="row">
-            <div class="col-md-6 offset-md-2 ">
-                <div>
-                    <p class="fw-bold">Here's what we've learned:</p>
-                    <p>Vitality doesn't come from just ONE thing.</p>
-                    <p>It comes from TWO things working together.</p>
+            <div class="col-md-6 offset-50">
+                <p class="fw-bold">Here's what we've learned:</p>
+                <p>Vitality doesn't come from just ONE thing.</p>
+                <p>It comes from TWO things working together.</p>
 
-                    <p><b>Internal support...</b> which <b>Resilience</b> helps provide for you.</p>
+                <p><b>Internal support...</b> which <b>Resilience</b> helps provide for you.</p>
 
-                    <p><b>And gentle, sustainable movement...</b> which your body may be ready for right now.</p>
+                <p><b>And gentle, sustainable movement...</b> which your body may be ready for right now.</p>
 
-                    <p>When you combine both?</p>
+                <p>When you combine both?</p>
 
-                    <p>That's when you may start feeling GOOD again.</p>
-                    <p>Not just "less tired."</p>
-                    <p>Actually good.</p>
-                </div>
+                <p>That's when you may start feeling GOOD again.</p>
+                <p>Not just "less tired."</p>
+                <p>Actually good.</p>
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@
         <div class="row">
             <div class="col-12">
                 <p>We've created three different programs.</p>
-                <p>Each one designed specifically for busy people who are over 50, who are taking care of a lot and
+                <p>Each one designed specifically for busy people who are over 50, who are taking care<br> of a lot and
                     trying to take care of themselves, too.</p>
                 <p>These aren't punishing workout programs.</p>
                 <p>They're GENTLE.</p>
@@ -144,10 +144,19 @@
 
 </div>
 
-<div class="container-fluid bg-gse_option1">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+<!-- desktop only -->
+<div class="position-relative m-d-none">
+    <!-- Background Image -->
+    <img src="<?php echo BASE_URL ?>assets/img/gse_frame.webp" alt="gse_frame" class="w-100" height="700" />
+
+    <!-- Featured Image aligned to the right -->
+    <img src="<?php echo BASE_URL ?>assets/img/gse_featured.webp" alt="gse_featured"
+        class="position-absolute top-49 end-0 translate-middle-y" style="height: 567px;" />
+
+    <!-- Text Overlay -->
+    <div class="container position-absolute top-50 start-50 translate-middle">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 offset-one">
                 <h2 class="option-headline-color">
                     Gentle Stretching Essentials
                 </h2>
@@ -160,6 +169,19 @@
         </div>
     </div>
 </div>
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="container-fluid">
     <div class="container">
@@ -233,19 +255,24 @@
     </div>
 </div>
 
-<div class="container-fluid bg-llw_option2">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="option2-headline-color">
-                    Lifelong Wellness Academy
-                </h2>
+<div class="position-relative">
+    <!-- Background Image -->
+    <img src="<?php echo BASE_URL ?>assets/img/llwa_frame.webp" alt="llwa_frame" class="w-100" height="700" />
+
+    <!-- Featured Image aligned to the right -->
+    <img src="<?php echo BASE_URL ?>assets/img/llwa_featured.webp" alt="llwa_featured"
+        class="position-absolute top-49 end-0 translate-middle-y" style="height: 567px;" />
+
+    <!-- Text Overlay -->
+    <div class="container position-absolute top-50 start-50 translate-middle">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 offset-one">
+                <h2 class="option2-headline-color">Lifelong Wellness Academy</h2>
                 <p class="fw-bold">For when you want ONE place that has EVERYTHING you need</p>
                 <p>This is for you if...</p>
                 <p>You're tired of trying to piece together different programs, recipes, and advice from different
                     sources.</p>
-                <p>
-                    You want ONE simple system that covers movement, nutrition, and mental wellness.</p>
+                <p>You want ONE simple system that covers movement, nutrition, and mental wellness.</p>
                 <p>You're ready to feel strong, energized, and healthy... without it taking over your entire life.</p>
             </div>
         </div>

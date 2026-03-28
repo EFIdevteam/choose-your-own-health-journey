@@ -1,10 +1,16 @@
-<div class="container-fluid bg-EFI_option2">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="option3-headline-color">
-                    EFI Plus
-                </h2>
+<div class="position-relative">
+    <!-- Background Image -->
+    <img src="<?php echo BASE_URL ?>assets/img/efi+__frame.webp" alt="efi+__frame" class="w-100" height="700" />
+
+    <!-- Featured Image aligned to the right -->
+    <img src="<?php echo BASE_URL ?>assets/img/efi_op3.webp" alt="efi_op3"
+        class="position-absolute top-49 end-0 translate-middle-y" style="height: 567px;" />
+
+    <!-- Text Overlay -->
+    <div class="container position-absolute top-50 start-50 translate-middle">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 offset-one">
+                <h2 class="option3-headline-color">EFI Plus</h2>
                 <p class="fw-bold">For when you're dealing with pain that just won't go away</p>
                 <p>This is for you if...</p>
                 <p>You've got knee pain, hip pain, shoulder issues, or a nagging ache that's been bothering you for
@@ -71,7 +77,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 text-center">
-            <h2 class="text-white p-2 rounded-3 bg-llw-wellness shadow">
+            <h2 class="text-white p-2 rounded-3 bg-efi-plus shadow">
                 Try EFI Plus For FREE
             </h2>
             <div> <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" class="img-fluid" /></div>
@@ -112,11 +118,11 @@
     </div>
 </div>
 
+
 <div class="container-fluid bg-woman_stretch">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-10 offset-lg-2">
-
+            <div class="col-12 col-md-10 offset-lg-2 margin-auto-tab">
                 <div class="bg-rgba-white ">
                     <h2 class="option3-headline-color text-center">
                         Why Add This To Resilience?
@@ -140,22 +146,20 @@
     </div>
 </div>
 
-
-
 <div class="container-fluid sub-headline-bg-color">
     <div class="container">
-        <div class="row">
-            <h2 class="option3-headline-color text-center mt-2">
+        <div class="row ">
+            <h2 class="option3-headline-color text-center mt-4">
                 Still Not Sure Which One To Pick?
             </h2>
-            <h5 class="text-center mb-4">Here's a quick guide:</h5>
-            <div class="col-md-4 text-center">
-                <div class="shadow-lg rounded-30 ">
+            <h5 class="text-center mb-3">Here's a quick guide:</h5>
+            <div class="col-md-4 d-flex mb-5 mb-md-0">
+                <div class="shadow-lg rounded-30 w-100 d-flex flex-column bg-white removepx">
                     <div class="bg-column-option-1 p-3 rounded-top-30 px-5">
-                        <h5 class="bg-option_s text-white option-mt-30">
+                        <h5 class="bg-option_s text-white option-mt-30 text-center">
                             OPTION 1
                         </h5>
-                        <p class="m-0 fw-bold">Pick Gentle Stretching<br> Essentials if:</p>
+                        <p class="m-0 fw-bold text-center">Pick Gentle Stretching Essentials if:</p>
                     </div>
                     <div class="p-3 bg-white rounded-bottom-30">
                         <p class="m-0">You want to feel relaxed and calm. You're not dealing with a specific injury...
@@ -165,13 +169,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 text-center">
-                <div class="shadow-lg rounded-30 ">
+            <div class="col-md-4 d-flex mb-5 mb-md-0">
+                <div class="shadow-lg rounded-30 w-100 d-flex flex-column bg-white removepx">
                     <div class="bg-column-option-2 p-3 rounded-top-30 px-5">
-                        <h5 class="bg-option_s text-white option-mt-30">
+                        <h5 class="bg-option_s text-white option-mt-30 text-center">
                             OPTION 2
                         </h5>
-                        <p class="m-0 fw-bold">Pick Lifelong Wellness<br> Academy if:</p>
+                        <p class="m-0 fw-bold text-center">Pick Lifelong Wellness Academy if:</p>
                     </div>
                     <div class="p-3 bg-white rounded-bottom-30">
                         <p class="m-0">You want the complete system. Workouts, meal plans, mindfulness... everything in
@@ -180,13 +184,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 text-center">
-                <div class="shadow-lg rounded-30 ">
+            <div class="col-md-4 d-flex ">
+                <div class="shadow-lg rounded-30 w-100 d-flex flex-column bg-white removepx">
                     <div class="bg-column-option-3 p-3 rounded-top-30 px-5">
-                        <h5 class="bg-option_s text-white option-mt-30">
+                        <h5 class="bg-option_s text-white option-mt-30 text-center">
                             OPTION 3
                         </h5>
-                        <p class="m-0 fw-bold">Pick Exercises For<br> Injuries if:</p>
+                        <p class="m-0 fw-bold text-center">Pick Exercises For Injuries if:</p>
                     </div>
                     <div class="p-3 bg-white rounded-bottom-30">
                         <p class="m-0">You're dealing with ongoing PAIN or an injury that hasn't improved. You want a
@@ -201,23 +205,27 @@
     </div>
 </div>
 
+<div class="col-md-12">
+    <div class="position-relative">
 
-<div class="container-fluid bg-offer_banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="text-center headline-text-color fst-italic">Choose Your Own<br>
-                    Health Journey</h1>
-            </div>
+        <!-- IMAGE -->
+        <img src="<?php echo BASE_URL ?>assets/img/offer_banner.webp" alt="offer_banner" class="w-100" height="300px">
+
+        <!-- TEXT OVER IMAGE -->
+        <div class="position-absolute top-40 start-50 translate-middle text-center">
+            <h1 class="headline-text-color fst-italic">
+                Choose Your Own<br>Health Journey
+            </h1>
         </div>
+
     </div>
 </div>
 
 <div class="container-fluid ">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="rounded-5 shadow bg-column-option-1">
+        <div class="row g-4 g-md-4">
+            <div class="col-md-4 d-flex">
+                <div class="rounded-5 shadow bg-column-option-1 w-100 d-flex flex-column">
                     <div class="text-center px-4 p-2">
                         <h4 class="gs-column-headline m-0">Gentle Stretching Essentials</h4>
                         <div class="line"></div>
@@ -226,7 +234,7 @@
                     <div>
                         <img src="<?php echo BASE_URL ?>assets/img/gse_offer.webp" alt="gse_offer" class="img-fluid" />
                     </div>
-                    <p class="text-decoration-underline text-center mt-2 free-14-text-color">FREE for 14 days</p>
+                    <p class="text-decoration-underline text-center mt-2 free-14-text-color mb-0">FREE for 14 days</p>
 
                     <div class="px-5">
                         <img src="<?php echo BASE_URL ?>assets/img/start_now.webp" alt="start_now" class="img-fluid" />
@@ -237,8 +245,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="rounded-5 shadow bg-column-option-2">
+            <div class="col-md-4 d-flex">
+                <div class="rounded-5 shadow bg-column-option-2 w-100 d-flex flex-column">
                     <div class="text-center px-4 p-2">
                         <h4 class=" m-0 option2-headline-color">Lifelong Wellness
                             Academy</h4>
@@ -246,9 +254,9 @@
                         <h5 class=" fst-italic alice-family">VIP Access</h5>
                     </div>
                     <div>
-                        <img src="<?php echo BASE_URL ?>assets/img/gse_offer.webp" alt="gse_offer" class="img-fluid" />
+                        <img src="<?php echo BASE_URL ?>assets/img/llwa_vip.webp" alt="llwa_vip" class="img-fluid" />
                     </div>
-                    <p class="text-decoration-underline text-center mt-2 free-14-text-color">FREE for 14 days</p>
+                    <p class="text-decoration-underline text-center mt-2 free-14-text-color mb-0">FREE for 14 days</p>
 
                     <div class="px-5">
                         <img src="<?php echo BASE_URL ?>assets/img/start_now.webp" alt="start_now" class="img-fluid" />
@@ -259,17 +267,18 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="rounded-5 shadow bg-column-option-3">
+            <div class="col-md-4 d-flex">
+                <div class="rounded-5 shadow bg-column-option-3 w-100 d-flex flex-column">
+
                     <div class="text-center px-4 p-2">
                         <h4 class=" m-0 option3-headline-color">Exercises For Injuries (EFI+)</h4>
                         <div class="line"></div>
                         <h5 class=" fst-italic alice-family">VIP Access</h5>
                     </div>
                     <div>
-                        <img src="<?php echo BASE_URL ?>assets/img/gse_offer.webp" alt="gse_offer" class="img-fluid" />
+                        <img src="<?php echo BASE_URL ?>assets/img/efi+_vip.webp" alt="efi+_vip" class="img-fluid" />
                     </div>
-                    <p class="text-decoration-underline text-center mt-2 free-14-text-color">FREE for 14 days</p>
+                    <p class="text-decoration-underline text-center mt-2 free-14-text-color mb-0">FREE for 14 days</p>
 
                     <div class="px-5">
                         <img src="<?php echo BASE_URL ?>assets/img/start_now.webp" alt="start_now" class="img-fluid" />

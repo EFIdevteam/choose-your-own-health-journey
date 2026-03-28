@@ -1,3 +1,7 @@
+.top-49 {
+    top: 49%
+}
+
 .headline-text-color {
     color: #c1ddc4;
 }
@@ -55,8 +59,16 @@
   background-color: #8dc993;
 }
 
+.test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .bg-woman_middleaged {
     background-image: url(../img/woman_middleaged.webp);
+    background-color: #f1fff3;
     background-position: center right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -70,7 +82,7 @@
 }
 
 .bg-EFI_option2 {
-    background-image: url(../img/efi_option3.webp);
+    background-image: url(../img/llw_frame2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,7 +131,7 @@
     border: 3px solid #f1fff3;
 }
 
-.bg-llw-wellness {
+.bg-efi-plus {
     background-color: #578205;
     border: 3px solid #f1fff3;
 }
@@ -168,6 +180,15 @@
     padding: 15px;
 }
 
+.headline-banner {
+     background-image: url(../img/header_banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+      background-color: #f1fff3;
+
+}
+
 .option-mt-30 {
     margin-top: -32px;
 }
@@ -187,6 +208,14 @@
 .line {
     border: 2px solid #d3d3d3;
     margin: 10px;
+}
+
+.top-40 {
+    top: 40%;
+}
+
+.start-40 {
+    left: 32% ;
 }
 
 
@@ -266,13 +295,19 @@
 
 
 p a {
-	text-decoration: none;
-	color: unset;
 	word-break: break-word;
+}
+
+.bg-m-option1 {
+    background-color: #be9dc8;
 }
 
 
 @media (max-width: 767.98px) {
+
+    .offset-one {
+    margin-left: 10.33333333%;
+}
 
     .m-ribon {
             font-size: 20px;
@@ -314,9 +349,45 @@ p a {
 .bg-woman_middleaged {
     background-image: url(../img/unset);
 }
-
-
- 
    
 }
+
+@media (max-width: 820px) {
+    .removepx .px-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+            margin-top: -26px;
+    }
+
+    .margin-auto-tab {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .offset-50 {
+        margin-left: 50% !important;
+    }
+
+    .offset-one {
+    margin-left: 8.33333333%;
+}
+}
+
+@media (min-width: 1200px) { /* large screens */
+    .offset-50{
+        margin-left: 10% !important; /* remove offset */
+    }
+
+        .offset-one {
+    margin-left: unset;
+}
+
+.margin-auto-tab {
+        margin: unset;
+    }
+}
+
+
+
 

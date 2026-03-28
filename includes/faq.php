@@ -37,7 +37,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>Can I cancel anytime?
@@ -59,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>Which program should I choose?
@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>I’m not very active right now. Will this still work for me?
@@ -112,7 +112,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>What makes these programs different from free workouts online?
@@ -133,7 +133,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>Do I need special equipment?
@@ -154,7 +154,7 @@
                     </div>
 
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>Can I use these programs while taking Resilience?
@@ -173,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>How do I access the program?
@@ -192,7 +192,7 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header">
 
                             <p class="m-0"><b>Should I consult my doctor before starting?
@@ -213,7 +213,7 @@
                     </div>
 
                     <br>
-                    <div class="accordion-item open">
+                    <div class="accordion-item ">
                         <div class="accordion-header reference-hover">
                             <p class="m-0 fw-bold">
                                 References:</b>
@@ -257,7 +257,7 @@
 
                                     </p>
                                 </li>
-                                </ul>
+                            </ol>
                         </div>
                     </div>
 
@@ -266,15 +266,3 @@
         </div>
     </div>
 </div>
-
-<script>
-
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    document.querySelectorAll('.accordion-header').forEach(header => {
-        header.addEventListener('click', () => {
-            const item = header.parentElement;
-            item.classList.toggle('open');
-        });
-    });
-</script>

@@ -28,11 +28,28 @@
 
 <script>
 
-    document.querySelectorAll('.accordion-header').forEach(header => {
-        header.addEventListener('click', () => {
-            const item = header.parentElement;
-            item.classList.toggle('open');
+    document.addEventListener('DOMContentLoaded', function () {
+
+        const headers = document.querySelectorAll('.accordion-header');
+
+        headers.forEach(header => {
+            header.addEventListener('click', function () {
+
+                const item = this.closest('.accordion-item');
+                const isOpen = item.classList.contains('open');
+
+                // CLOSE ALL
+                document.querySelectorAll('.accordion-item').forEach(el => {
+                    el.classList.remove('open');
+                });
+
+                // OPEN CLICKED (if it was closed)
+                if (!isOpen) {
+                    item.classList.add('open');
+                }
+            });
         });
+
     });
 </script>
 
