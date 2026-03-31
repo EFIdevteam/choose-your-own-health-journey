@@ -213,7 +213,7 @@
                     </div>
 
                     <br>
-                    <div class="accordion-item ">
+                    <div class="accordion-item open">
                         <div class="accordion-header reference-hover">
                             <p class="m-0 fw-bold">
                                 References:</b>

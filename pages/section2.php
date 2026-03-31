@@ -1,4 +1,4 @@
-<div class="position-relative">
+<div class="position-relative m-d-none">
     <!-- Background Image -->
     <img src="<?php echo BASE_URL ?>assets/img/efi+__frame.webp" alt="efi+__frame" class="w-100" height="700" />
 
@@ -18,6 +18,47 @@
                 <p>You've tried stretching, heating pads, and "resting it"... but nothing seems to fully resolve the
                     problem.</p>
                 <p>You want a system designed to address the root issue.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- mobile only -->
+<div class="container-fluid d-d-none m-d-block">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="efi-mobile-bg">
+                    <div class="text-center"><img src="<?php echo BASE_URL ?>assets/img/option_s.webp" width="250"
+                            height="43" style="margin-top: -5px" />
+                    </div>
+                    <h3 class="text-white text-center" style="margin-top: -42px">
+                        Option 3
+                    </h3>
+                    <h2 class="option3-headline-color text-center mt-3 mb-0">
+                        EFI <br> Plus
+                    </h2>
+                    <div class="px-4 p-2 mx-auto" style="background: linear-gradient(
+                        to bottom,
+                        #f0fadb,
+                        #f5fce5
+                    ); max-width: 312px;
+                    margin-top: -5px">
+                        <p class="fw-bold">For when your body just needs to feel RELAXED and CALM again</p>
+                        <p>This is for you if...</p>
+                        <p>You wake up stiff every morning... and it takes a while before your body feels "ready" to
+                            move.</p>
+                        <p>Your shoulders, hips, and back feel tight by the end of the day.</p>
+                        <p>You want something that <b>feels RELAXING</b>... not like another thing on your to-do list.
+                        </p>
+
+                    </div>
+
+                    <div class="text-center"> <img src="<?php echo BASE_URL ?>assets/img/woman_situps.webp"
+                            style="margin-top: -5px; max-width: 312px;" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -93,13 +134,17 @@
     </div>
 </div>
 
+
+
+
+
 <div class="container-fluid sub-headline-bg-color">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="text-center text-md-end">
-                    <img src="<?php echo BASE_URL ?>assets/img/pusg_button.webp" class="img-fluid float-md-end"
-                        width="300" />
+                    <img src="<?php echo BASE_URL ?>assets/img/pusg_button.webp"
+                        class="img-fluid float-md-end float-end" width="250" />
                 </div>
                 <h2 class="option3-headline-color">
                     Here's How This Works:
@@ -119,11 +164,12 @@
 </div>
 
 
+
 <div class="container-fluid bg-woman_stretch">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-10 offset-lg-2 margin-auto-tab">
-                <div class="bg-rgba-white ">
+                <div class="bg-rgba-white mt-350">
                     <h2 class="option3-headline-color text-center">
                         Why Add This To Resilience?
                     </h2>

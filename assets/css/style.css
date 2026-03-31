@@ -305,6 +305,14 @@ p a {
 
 @media (max-width: 767.98px) {
 
+    .mt-350 {
+            margin-top: 350px;
+    }
+
+    .bg-woman_stretch {
+background-position: 20% center;
+}
+
     .offset-one {
     margin-left: 10.33333333%;
 }
@@ -337,6 +345,43 @@ p a {
     background-size: contain;
     background-position: top right;
 }
+
+.gs-mobile-bg {
+    background-image: url(../img/gse_frame_1.webp);
+    background-size: contain;
+    background-position: top center ;
+    background-repeat: no-repeat;
+}
+
+.llw-mobile-bg {
+    background-image: url(../img/llwa_frame_1.webp);
+    background-size: contain;
+    background-position: top center ;
+    background-repeat: no-repeat;
+}
+
+
+
+.efi-mobile-bg {
+    background-image: url(../img/efi+_frame_1.webp);
+    background-size: contain;
+    background-position: top center ;
+    background-repeat: no-repeat;
+}
+
+.gs-mobile-bg-strecth {
+    background-image: url(../img/dsa.webp);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin: 20px;
+    margin-top: 0;   
+        position: relative;
+    z-index: -1111111;
+}
+
+
+
 
 .bg-senior_twist {
         background-image: 
@@ -386,6 +431,11 @@ p a {
 .margin-auto-tab {
         margin: unset;
     }
+}
+
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important; /* Offset-x | Offset-y | Blur | Color */
 }
 
 

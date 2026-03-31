@@ -30,7 +30,6 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="sub-headline-text-color">Resilience is here to help support your body.</h2>
-                <p>Resilience is here to help support your body.</p>
                 <p>It's designed to help support healthy energy, promote mental clarity, support your body's natural
                     stress response, and maintain healthy immune system function.</p>
                 <p>That kind of foundational support can help you feel more like yourself again.</p>
@@ -38,6 +37,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid bg-senior_bandpull">
     <div class="container ">
@@ -171,15 +171,46 @@
 </div>
 <!-- end -->
 
+<!-- mobile only -->
+<div class="container-fluid d-d-none m-d-block">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="gs-mobile-bg">
+                    <div class="text-center"><img src="<?php echo BASE_URL ?>assets/img/option_s.webp" width="250"
+                            height="43" style="margin-top: -5px" />
+                    </div>
+                    <h3 class="text-white text-center" style="margin-top: -42px">
+                        Option 1
+                    </h3>
+                    <h2 class="option-headline-color text-center mt-4 mb-0">
+                        Gentle Stretching Essentials
+                    </h2>
+                    <div class="px-4 p-2 mx-auto" style="background: linear-gradient(
+                        to bottom,
+                        rgba(242, 221, 251, 1),
+                        rgba(247, 229, 251, 1)
+                    ); max-width: 312px;
+                    margin-top: -5px">
+                        <p class="fw-bold">For when your body just needs to feel RELAXED and CALM again</p>
+                        <p>This is for you if...</p>
+                        <p>You wake up stiff every morning... and it takes a while before your body feels "ready" to
+                            move.</p>
+                        <p>Your shoulders, hips, and back feel tight by the end of the day.</p>
+                        <p>You want something that <b>feels RELAXING</b>... not like another thing on your to-do list.
+                        </p>
 
 
+                    </div>
 
-
-
-
-
-
-
+                    <div class="text-center"> <img src="<?php echo BASE_URL ?>assets/img/woman_exercise.webp"
+                            style="margin-top: -5px; max-width: 312px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -255,7 +286,8 @@
     </div>
 </div>
 
-<div class="position-relative">
+<!-- desktop only -->
+<div class="position-relative m-d-none">
     <!-- Background Image -->
     <img src="<?php echo BASE_URL ?>assets/img/llwa_frame.webp" alt="llwa_frame" class="w-100" height="700" />
 
@@ -278,6 +310,48 @@
         </div>
     </div>
 </div>
+
+<!-- mobile only -->
+<div class="container-fluid d-d-none m-d-block">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="llw-mobile-bg">
+                    <div class="text-center"><img src="<?php echo BASE_URL ?>assets/img/option_s.webp" width="250"
+                            height="43" style="margin-top: -5px" />
+                    </div>
+                    <h3 class="text-white text-center" style="margin-top: -42px">
+                        Option 2
+                    </h3>
+                    <h2 class="option2-headline-color text-center mt-4 mb-0">
+                        Lifelong Wellness Academy
+                    </h2>
+                    <div class="px-4 p-2 mx-auto" style="background: linear-gradient(
+                        to bottom,
+                        #d1ecfb,
+                        #def1fc
+                    ); max-width: 312px;
+                    margin-top: -5px">
+                        <p class="fw-bold">For when your body just needs to feel RELAXED and CALM again</p>
+                        <p>This is for you if...</p>
+                        <p>You wake up stiff every morning... and it takes a while before your body feels "ready" to
+                            move.</p>
+                        <p>Your shoulders, hips, and back feel tight by the end of the day.</p>
+                        <p>You want something that <b>feels RELAXING</b>... not like another thing on your to-do list.
+                        </p>
+
+
+                    </div>
+
+                    <div class="text-center"> <img src="<?php echo BASE_URL ?>assets/img/woman_eating.webp"
+                            style="margin-top: -5px; max-width: 312px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <div class="container-fluid">

@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Pickleball Restoration Foam Rolling</title>
-	<link rel="icon" type="image/png" href="<?php echo BASE_URL; ?>assets/img/Image20260318200014.png">
+	<link rel="icon" type="image/png" href="<?php echo BASE_URL; ?>assets/img/ln_favicon.png">
 
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
