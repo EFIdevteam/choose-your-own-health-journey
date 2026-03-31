@@ -269,9 +269,13 @@
 <div class="container">
     <div class="row">
         <div class="col-12 text-center">
-            <h2 class="text-white p-2 rounded-3 bg-gentle-essemtial shadow">
-                Try Gentle Stretching Essentials For FREE
-            </h2>
+            <a href="https://gentlestr1.pay.clickbank.net/?cbitems=aff9cyogse9lnutri9mar26&cbur=a&vtid=<?php echo urlencode($vtid); ?>&cbrblaccpt=true"
+                target="_blank" class="text-decoration-none">
+                <h2 class="text-white p-2 rounded-3 bg-gentle-essemtial shadow">
+                    Try Gentle Stretching Essentials For FREE
+                </h2>
+            </a>
+
             <div> <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" class="img-fluid" /></div>
             <p class="small-p">When you join today, you’ll receive instant access to the Gentle Stretching Essentials
                 and a special
@@ -413,9 +417,13 @@
 <div class="container">
     <div class="row">
         <div class="col-12 text-center">
-            <h2 class="text-white p-2 rounded-3 bg-llw-wellness shadow">
-                Try Lifelong Wellness Academy For FREE
-            </h2>
+            <a href="https://mirlower.pay.clickbank.net/?cbitems=aff9cyollwa9lnutri9mar26&cbur=a&vtid=<?php echo urlencode($vtid); ?>&cbrblaccpt=true"
+                target="_blank" class="text-decoration-none">
+                <h2 class="text-white p-2 rounded-3 bg-llw-wellness shadow">
+                    Try Lifelong Wellness Academy For FREE
+                </h2>
+            </a>
+
             <div> <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" class="img-fluid" /></div>
             <p class="small-p">When you join today, you’ll receive instant access to the Lifelong Wellness Academy and a
                 special 14-day trial for FREE. This gives you full access to explore the workouts, resources, and

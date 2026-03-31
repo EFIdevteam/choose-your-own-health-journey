@@ -118,9 +118,13 @@
 <div class="container">
     <div class="row">
         <div class="col-12 text-center">
-            <h2 class="text-white p-2 rounded-3 bg-efi-plus shadow">
-                Try EFI Plus For FREE
-            </h2>
+            <a href="https://painfoot.pay.clickbank.net/?cbitems=aff9cyoefip9lnutri9mar26&cbur=a&vtid=xxxx&cbrblaccpt=true"
+                target="_blank" class="text-decoration-none">
+                <h2 class="text-white p-2 rounded-3 bg-efi-plus shadow shadow">
+                    Try EFI Plus For FREE
+                </h2>
+            </a>
+
             <div> <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" class="img-fluid" /></div>
             <p class="small-p">When you join today, you’ll receive instant access to the EFI Plus and a special 14-day
                 trial for FREE. This gives you full access to explore the workouts, resources, and guidance designed to
@@ -331,11 +335,8 @@
                         <img src="<?php echo BASE_URL ?>assets/img/acc_accpect.webp" alt="acc_accpect"
                             class="img-fluid" />
                     </div>
-
                 </div>
             </div>
-
-
         </div>
         <div class="text-center">
             <p class="small-p mt-5 ">When you join today, you’ll receive instant access to the EFI Plus and a
@@ -351,7 +352,8 @@
                     class="text-decoration-none text-dark">WeCare@LongevityNutritionals.com</a>. You can also
                 reach our support team by calling or texting +1 (888) 884-9895.</p>
 
-            <p><a href="">Or... click here to skip this offer and complete your order.</a></p>
+            <p><a href="https://painfoot.pay.clickbank.net/?cbitems=aff9cyogse9lnutri9mar26&cbur=d&vtid=<?php echo urlencode($vtid); ?>&cbrblaccpt=true"
+                    target="_blank">Or... click here to skip this offer and complete your order.</a></p>
             <p>(It’s free. And if it helps you feel even a LITTLE bit better... it may be worth trying.)</p>
         </div>
     </div>
