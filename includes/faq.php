@@ -229,7 +229,8 @@
                                         in older adults: Recommendation from the American College of Sports Medicine and
                                         the American Heart Association. Medicine & Science in Sports & Exercise, 39(8),
                                         1435–1445. <a href="https://doi.org/10.1249/mss.0b013e3180616aa2"
-                                            target="_blank">https://doi.org/10.1249/mss.0b013e3180616aa2</a>
+                                            target="_blank"
+                                            class="text-decoration-none text-dark">https://doi.org/10.1249/mss.0b013e3180616aa2</a>
 
                                     </p>
                                 </li>
@@ -241,8 +242,8 @@
                                         effects of yoga on stress measures and mood. Journal of Psychiatric Research,
                                         68,
                                         270–282.
-                                        <a href="https://doi.org/10.1016/j.jpsychires.2015.07.013"
-                                            target="_blank">https://doi.org/10.1016/j.jpsychires.2015.07.013</a>
+                                        <a href="https://doi.org/10.1016/j.jpsychires.2015.07.013" target="_blank"
+                                            class="text-decoration-none text-dark">https://doi.org/10.1016/j.jpsychires.2015.07.013</a>
 
                                     </p>
                                 </li>
@@ -252,7 +253,8 @@
                                         Behm, D. G., & Colado, J. C. The effectiveness of unstable surface training.
                                         Strength
                                         and Conditioning Journal, 34(1), 85–94.
-                                        <a href=" https://doi.org/10.1519/SSC.0b013e31823da4e8" target="_blank">
+                                        <a href=" https://doi.org/10.1519/SSC.0b013e31823da4e8" target="_blank"
+                                            class="text-decoration-none text-dark">
                                             https://doi.org/10.1519/SSC.0b013e31823da4e8</a>
 
                                     </p>
