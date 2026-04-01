@@ -16,6 +16,10 @@
             <a href="https://longevitynutritionals.net/cookie-policy/" class="text-decoration-none text-dark"
                 target="_blank">Cookie
                 Policy</a>
+            <span class="text-success">●</span>
+            <a href="https://longevitynutritionals.net/cancelation-policy-llw/" class="text-decoration-none text-dark"
+                target="_blank">
+                Cancellation Policy</a>
         </p>
     </div>
 
