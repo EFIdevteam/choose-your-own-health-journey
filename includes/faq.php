@@ -75,17 +75,18 @@
                             </p>
                             <ul>
                                 <li>
-                                    <p> Gentle Stretching Essentials helps loosen tight muscles and reduce stiffness.
+                                    <p> <b>Gentle Stretching Essentials</b> helps loosen tight muscles and reduce
+                                        stiffness.
                                     </p>
                                 </li>
 
                                 <li>
-                                    <p> Lifelong Wellness Academy provides a complete wellness system with workouts,
+                                    <p> <b>Lifelong Wellness Academy</b> provides a complete wellness system with
+                                        workouts,
                                         recipes, and mindfulness.</p>
                                 </li>
-
                                 <li>
-                                    <p> EFI+ focuses on targeted programs for ongoing pain or injuries.</p>
+                                    <p> <b>EFI+</b> focuses on targeted programs for ongoing pain or injuries.</p>
                                 </li>
                             </ul>
 
@@ -149,10 +150,8 @@
                                 you can do at home. Some optional exercises may suggest light dumbbells, resistance
                                 bands, or a yoga mat.
                             </p>
-
                         </div>
                     </div>
-
 
                     <div class="accordion-item ">
                         <div class="accordion-header">

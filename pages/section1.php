@@ -15,7 +15,7 @@
 
                 <h3>You just gave your body internal support.
                     That matters.</h3>
-                <h1 class="headline-text-color fst-italic">Now let's help it MOVE<br>
+                <h1 class="headline-text-color fst-italic mb-5">Now let's help it MOVE<br>
                     <span class="signature">again</span>.
                 </h1>
             </div>
@@ -44,6 +44,8 @@
         <div class="row">
             <div class="col-md-8">
                 <h2 class="text-center mt-2">But here's something important <br>to remember...</h2>
+            </div>
+            <div class="col-10 col-md-8">
                 <p>Supporting your body from the inside and keeping it moving work together to support your health and
                     well-being.<sup>1,2</sup></p>
                 <p class="fw-bold">Your body benefits from regular movement and physical activity, which can help
@@ -51,7 +53,7 @@
                 <p>We GET it.</p>
                 <p>Between work, responsibilities, groceries, appointments, cooking, cleaning...</p>
                 <p>Life fills up quickly.</p>
-                <p>Who has TIME to exercise</p>
+                <p>Who has TIME to exercise?</p>
             </div>
         </div>
     </div>
@@ -79,12 +81,12 @@
 <div class="container-fluid bg-senior_twist">
     <div class="container ">
         <div class="row">
-            <div class="col-md-6 offset-50">
+            <div class="col-9 offset-3 col-md-6 offset-50">
                 <p class="fw-bold">Here's what we've learned:</p>
                 <p>Vitality doesn't come from just ONE thing.</p>
                 <p>It comes from TWO things working together.</p>
 
-                <p><b>Internal support...</b> which <b>Resilience</b> helps provide for you.</p>
+                <p><b>Internal support...</b> which <b class="fst-italic">Resilience</b> helps provide for you.</p>
 
                 <p><b>And gentle, sustainable movement...</b> which your body may be ready for right now.</p>
 
@@ -92,7 +94,7 @@
 
                 <p>That's when you may start feeling GOOD again.</p>
                 <p>Not just "less tired."</p>
-                <p>Actually good.</p>
+                <p class="m-0">Actually good.</p>
             </div>
         </div>
     </div>
@@ -122,7 +124,7 @@
                 <p>They're GENTLE.</p>
                 <p>They're EASY to fit into your day.</p>
                 <p class="fw-bold">And they're designed to help you feel STRONGER...</p>
-                <p>not more worn out.</p>
+                <p class="fw-bold">not more worn out.</p>
 
                 <p>Pick the ONE that sounds like what you need most right now.</p>
 
@@ -244,8 +246,8 @@
                 <ul class="list-unstyled">
                     <li>
                         <p>→ Access to a <b>private community</b> where you can ask questions and get answers from
-                            certified
-                            yoga instructors and physiotherapists.</p>
+                            <b>certified yoga instructors and physiotherapists</b>.
+                        </p>
                     </li>
                     <li>
                         <p>→ <b>Monthly discount codes</b> on products that support your wellness.</p>

@@ -146,11 +146,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="text-center text-md-end">
+                <div class="text-center text-md-end push-button-img">
                     <img src="<?php echo BASE_URL ?>assets/img/pusg_button.webp"
-                        class="img-fluid float-md-end float-end" width="250" />
+                        class="img-fluid float-md-end float-end" />
                 </div>
-                <h2 class="option3-headline-color">
+                <h2 class="option3-headline-color mt-2">
                     Here's How This Works:
                 </h2>
                 <p>Pick the program that feels right for you.</p>
@@ -160,14 +160,12 @@
                 <p>After your trial, you'll automatically continue at the regular monthly rate.</p>
                 <p>And if you decide it's not for you... just email WeCare@LongevityNutritionals.com or call or text +1
                     (888) 884-9895 before the 14 days are up.</p>
-                <p>We'll cancel your membership. No questions asked.</p>
+                <p>We'll cancel your membership. <b>No questions asked</b>.</p>
 
             </div>
         </div>
     </div>
 </div>
-
-
 
 <div class="container-fluid bg-woman_stretch">
     <div class="container">
@@ -189,7 +187,6 @@
                     <p class="fw-bold">So pick the program that fits what you need right now.</p>
                     <p>Try it for 14 days.</p>
                     <p class="fw-bold">And see how you feel... when your body has BOTH.</p>
-
                 </div>
             </div>
         </div>
@@ -199,11 +196,11 @@
 <div class="container-fluid sub-headline-bg-color">
     <div class="container">
         <div class="row ">
-            <h2 class="option3-headline-color text-center mt-4">
+            <h2 class="option3-headline-color text-center mt-4 mb-3">
                 Still Not Sure Which One To Pick?
             </h2>
-            <h5 class="text-center mb-3">Here's a quick guide:</h5>
-            <div class="col-md-4 d-flex mb-5 mb-md-0">
+            <h5 class="text-center mb-4">Here's a quick guide:</h5>
+            <div class="col-md-4 d-flex mb-5 mb-md-0 mt-4 mt-md-0">
                 <div class="shadow-lg rounded-30 w-100 d-flex flex-column bg-white removepx">
                     <div class="bg-column-option-1 p-3 rounded-top-30 px-5">
                         <h5 class="bg-option_s text-white option-mt-30 text-center">
@@ -259,15 +256,14 @@
     <div class="position-relative">
 
         <!-- IMAGE -->
-        <img src="<?php echo BASE_URL ?>assets/img/offer_banner.webp" alt="offer_banner" class="w-100" height="300px">
+        <img src="<?php echo BASE_URL ?>assets/img/offer_banner.webp" alt="offer_banner" class="w-100" height="260px">
 
         <!-- TEXT OVER IMAGE -->
-        <div class="position-absolute top-40 start-50 translate-middle text-center">
+        <div class="position-absolute top-40 start-50 translate-middle text-center w-100">
             <h1 class="headline-text-color fst-italic">
-                Choose Your Own<br>Health Journey
+                <span>Choose Your Own<br>Health Journey</span>
             </h1>
         </div>
-
     </div>
 </div>
 

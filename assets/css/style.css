@@ -2,6 +2,16 @@
     top: 49%
 }
 
+.push-button-img {
+margin-top: -20px;
+}
+
+.push-button-img img {
+    width: 270px;
+}
+
+
+
 .headline-text-color {
     color: #c1ddc4;
 }
@@ -305,6 +315,11 @@ p a {
 
 @media (max-width: 767.98px) {
 
+    .push-button-img img {
+    width: 230px;
+
+}
+
     .mt-350 {
             margin-top: 350px;
     }
@@ -379,9 +394,6 @@ background-position: 20% center;
         position: relative;
     z-index: -1111111;
 }
-
-
-
 
 .bg-senior_twist {
         background-image: 
