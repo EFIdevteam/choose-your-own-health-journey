@@ -81,7 +81,7 @@
 <div class="container-fluid bg-senior_twist">
     <div class="container ">
         <div class="row">
-            <div class="col-9 offset-3 col-md-6 offset-50">
+            <div class="col-9 offset-3 offset-md-0 col-md-6 offset-md-50">
                 <p class="fw-bold">Here's what we've learned:</p>
                 <p>Vitality doesn't come from just ONE thing.</p>
                 <p>It comes from TWO things working together.</p>
